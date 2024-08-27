@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 dotenv.config();
+import cors from 'cors';
 
 const PORT=process.env.PORT ||5000;
 const MONGO_URL=process.env.MONGO_URL;
